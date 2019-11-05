@@ -1,0 +1,41 @@
+x<html>
+  <style>
+    body{
+      font-size: 15pt;
+      font-family: arial;
+      color: white;
+      background-image: url("http://www.thesupercars.org/wp-content/uploads/2011/04/2009-Lamborghini-Insecta-orange.jpg");
+    }
+  </style>
+
+
+<body>
+  <h1>Welcome to Spark Parking(Your Ultimate Guide to Parking in NY) yolo</h1>
+
+
+
+<p>**Parking Insurance**</p>
+<p>## plans including: damage < 500, damage < 750, damage < 1000, damage < 1250,  damage < 1500, none, parked scooter, parked motorcycle, comprehensive car </p>
+
+
+<form method="POST" action="/insurance">
+ <p>Check out insurance plans available and coverages:
+ <input type="text" name="name">
+ <input type="submit" value="Plan search">
+ </p>
+</form>
+
+<p><a  style="color: white;"  href="fourth">Redirect to buyer car registration</a></p>
+
+
+ <div>
+    {% for n in planinfo %}
+    <div>{{n}}</div>
+    {% endfor %}
+  </div>
+
+</body>
+
+
+</html>
+

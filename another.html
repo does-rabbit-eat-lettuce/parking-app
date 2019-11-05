@@ -1,0 +1,50 @@
+x<html>
+  <style>
+    body{
+      font-size: 15pt;
+      font-family: arial;
+      color: white;
+      background-image: url("http://auto.ferrari.com/en_US/wp-content/uploads/sites/7/2017/02/Ferrari_812_slider-1260x570.jpg");
+    }
+  </style>
+
+
+<body>
+  <h1>Welcome to Spark Parking(Your Ultimate Guide to Parking in NY) yolo</h1>
+
+
+
+<p>**Manage Your Account**</p>
+
+
+<form method="POST" action="/add">
+<p>New to the website? Add user account here! : 
+<input type="text" name="uid">
+<input type="text" name="username"> 
+<input type="text" name="phone">
+<input type="text" name="email">
+<input type="submit" value="Add your userid, name, phone number, and email">
+</p>
+</form>
+
+
+<form method="POST" action="/deleteAccount">
+ <p>Delete user account:
+ <input type="text" name="uid">
+ <input type="submit" value="Delete">
+ </p>
+</form>
+
+<p><a   style="color: white;"  href="thirdpage">Proceed to opt for parking insurance</a></p>
+
+ <div>
+    {% for n in userinfo %}
+    <div>{{n}}</div>
+    {% endfor %}
+  </div>
+
+</body>
+
+
+</html>
+

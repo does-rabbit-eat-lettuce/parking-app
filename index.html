@@ -1,0 +1,46 @@
+x<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+      color: white;
+      background-image: url("http://files1.porsche.com/filestore/image/multimedia/none/jdp-2016-modelseries-911carrera-intro-bpg-01/normal/6906f7d1-9c5f-11e6-9f1b-0019999cd470;s25/porsche-normal.jpg");
+    }
+  </style>
+
+
+<body>
+
+   
+  <h1>Welcome to Spark Parking(Your Ultimate Guide to Parking in NY) yolo</h1>
+  
+
+
+<p>**Currently parking spaces available in the following locations**</p>
+<p>##kingsbridge, morningside heights, upper west side, harlem##</p>
+ 
+
+
+<form method="POST" action="/searchPlace">
+ <p>Where would you like to park?:
+ <input type="text" name="name">
+ <input type="submit" value="SELECT">
+ </p>
+</form>
+
+
+<p><a style="color: white;" href="another">Proceed to Create New Account</a></p>
+
+
+  <div>
+    {% for n in data %}
+    <div>{{n}}</div>
+    {% endfor %}
+  </div>
+
+
+
+</body>
+
+
+</html>

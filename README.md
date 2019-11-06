@@ -1,2 +1,6 @@
 # parking-app
-HTML front end and Python server code with Google Cloud as backend database for a Parking App for drivers to search for available parking space in NY
+Full stack app 
+
+javascript frontend and Python server code with Google Cloud as backend database
+
+A parking App for drivers to search for available parking space in NY and vendors to post listings 
